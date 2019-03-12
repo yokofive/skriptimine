@@ -1,0 +1,11 @@
+#!/bin/bash
+#
+# tervitusskript
+#
+echo "Henri Hainla " # väljastada  nimi
+echo "ISP118"  # väljastda õppegrupp
+echo "Väga äge!" # Väljastada oma arvamus
+echo "Ei ole väga kaugel" #minu praegune mulje
+#
+#skripti lõpp
+#
