@@ -1,0 +1,10 @@
+#
+#
+#kuvab kaua süsteem on töödanud
+
+echo -n "scriptimine at "
+echo -n `date +%X'` " "
+uptime -p
+
+#
+#
