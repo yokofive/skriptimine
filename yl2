@@ -1,0 +1,18 @@
+#
+#
+echo -n "Sisesta aluskandiku pikkus cm: "
+read pikkus
+echo -n "Sisesta aluskandiku laius cm: "
+read laius
+echo -n "Küpsise pikkus cm: "
+read kp
+echo -n "Mitme kihilist torti valmistate?"
+read kihid
+"echo -n "mitu küpsist on ühes pakis?"
+read kap
+tp=`expr $pikkus \* $laius`
+kpa=`expr $kp \* $kl`
+ka=`expr $tp \/ $kpa`
+kkihid=`expr $kihid \* $ka` 
+kapa=`expr $kkihid \/ $kap`
+echo "Teil on puudu $kapa pakki küpsiseid või $kkihid küpsist."
