@@ -1,0 +1,7 @@
+#kuupäev ja kalender
+echo -n "Today is " # trükib
+echo `date +"%A, %B, %D, %Y"` # kuvab päeva
+ehco -n "Time is "
+echo `date +"%T"` # kuvab kella
+echo -n "Calendar of"
+cal # kuvab kalendri
