@@ -7,4 +7,4 @@ echo -n "Sisesta kolmnurga kõrgus : " #6
 read h #7
 #8 arvutus
 pindala=$(echo "sacle=2;(1/2) * $b * $h"|bc) #9
-echo "Kolmnurga pindala on $area" #10
+echo "Kolmnurga pindala on $pindala" #10
