@@ -1,0 +1,12 @@
+#
+#
+echo "pyhapaev 0; esmapaev 1; teisipaev 2; kolmapaev 3; neljapaev 4; 
+reede 5; laupaev 6."
+
+echo -n "Sisesta kuna lahed puhkusele: "
+read paev
+echo -n "Sisesta kaua oled puhkusel: "
+read oopaev
+paevad=$(($oopaev % 7))
+tagasi=$(($paev + $paevad))
+echo "Te saabute puhkuselt $tagasi"
