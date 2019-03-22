@@ -1,0 +1,10 @@
+#1 "Heron"
+#2
+echo -n "Sisesta kolmnurga põhi : " #3
+read b #4
+#5
+echo -n "Sisesta kolmnurga kõrgus : " #6
+read h #7
+#8 arvutus
+pindala=$(echo "sacle=2;(1/2) * $b * $h"|bc) #9
+echo "Kolmnurga pindala on $area" #10
