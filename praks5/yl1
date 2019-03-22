@@ -1,0 +1,22 @@
+#
+#
+echo -n "Sisesta A: "
+read A
+echo -n "Sisesta B: "
+read B
+BSquared=$(($B**2))
+ASquared=$((A**2))
+CSquared=$(($B+$A))
+Hypot=`echo "scale=2;sqrt($CSquared)"|bc`
+echo
+  +
+  |\
+  | \
+A |  \
+  |   \
+  +----
+    B    '
+
+ echo "A = $A"
+ echo "B = $B"
+ echo "C = $Hypot"
