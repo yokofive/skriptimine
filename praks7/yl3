@@ -1,0 +1,3 @@
+#!/bin/bash
+echo -n -e "Sisestage palun siia aeg tunni väärtuses
+read aeg

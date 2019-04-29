@@ -1,0 +1,8 @@
+#!/bin/bash
+#
+echo -n "Sisestage kuunumber:"
+read kuu
+if test $kuu -eq 1-o $kuu -eq 2 -o $kuu -eq 12
+then
+echo "Aastaajaks on TALV
+elif test $kuu -ge 3 -a $
